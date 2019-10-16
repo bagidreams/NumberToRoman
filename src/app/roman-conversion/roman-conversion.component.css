@@ -1,0 +1,17 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 50%;
+    margin: 0 auto;
+    top:30px;
+    position: relative;
+  }
+  
+  .example-full-width {
+    width: 50%;
+    
+  }
+  .matbtn{
+    left:200px;
+    position: relative;
+  }
