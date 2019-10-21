@@ -1,9 +1,9 @@
 <p></p>
  <form class="example-form" #usersForm="ngForm" novalidate enctype="multipart/form-data">
     <mat-form-field class="example-full-width">
-      <input type="number" name="vreviewDate" #vreviewDate="ngModel"
+      <input type="number" name="vnumerical" #vnumerical="ngModel"
       matInput placeholder="Number" [(ngModel)]="num" required (keypress)="numericOnly($event);">      
-       <mat-error *ngIf="vreviewDate.invalid && (vreviewDate.dirty || vreviewDate.touched)">
+       <mat-error *ngIf="vnumerical.invalid && (vnumerical.dirty || vnumerical.touched)">
         Enter Number
       </mat-error>       
     </mat-form-field>    
